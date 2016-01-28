@@ -8,7 +8,7 @@ def read_data(path):
     with open(path) as file:
         data = [[int(first) for first in line.split()] for line in file]
     data = np.array(data)
-    return data [:1], data[1:]
+    return data[:1], data[1:]
 
 def write_data(data, path):
     """
