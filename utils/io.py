@@ -10,4 +10,4 @@ def read_data(path):
     data = np.array(data)
     return data [:1], data[1:]
 
-print(read_data('exampledata'))
+
